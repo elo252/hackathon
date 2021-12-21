@@ -1,0 +1,98 @@
+/* .back_arrow{
+    align-items: flex-end;
+    justify-content: left;
+    margin-right: 90%;
+    font-size: 45px;
+  
+} */
+
+.image_div{
+  margin-right: 25%;
+  margin-bottom: 0%;
+  padding-top: 10px;
+  /* position: relative; */
+}
+
+.product_name{
+  margin-bottom: -3px;
+}
+
+.qualities_div{
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+.seller_name{
+  cursor: pointer;
+}
+
+ /* .seller_desc{
+ cursor: pointer;
+}  */
+
+.seller_icon{
+  margin-left: 1em;
+}
+
+.user_circle {
+	margin-left: 80%;
+	font-size: 45px;
+}
+.mySearchBar {
+  height: 100vh;
+	display: flex;
+	justify-content: center;
+  align-items: center;
+	
+  background: linear-gradient(
+		to right,
+		white 0%,
+		white 5%,
+		#d4e9ee 5%,
+		#d4e9ee 45%,
+		white 45%,
+		white 55%,
+		#9bb6c9 55%,
+		#9bb6c9 95%,
+		white 95%
+	);
+}
+/* 
+body { 
+  color: #fff;
+  height: 100%;
+} */
+
+/* .container {
+	background: linear-gradient(
+		to right,
+		white 0%,
+		white 5%,
+		#d4e9ee 5%,
+		#d4e9ee 45%,
+		white 45%,
+		white 55%,
+		#9bb6c9 55%,
+		#9bb6c9 95%,
+		white 95%
+	);
+	background: linear-gradient(to bottom, white 0%, white 40%);
+} */
+
+/* .mySearchBar {
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  
+}
+
+
+.mylogo{
+  text-align: left;
+	width: 50%;
+	overflow: hidden;
+	font-size: 35px;
+	font-family: merri weather;
+  margin-bottom: 50px;
+} */
