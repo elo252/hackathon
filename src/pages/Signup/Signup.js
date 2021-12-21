@@ -48,7 +48,7 @@ export default function SigninSide() {
     <Grid
       container
       component="main"
-      sx={{ height: "100vh", overflow: "hidden" }}
+      sx={{ height: "100vh" }}
     >
       <Grid item xs={false} sm={7} md={7}>
         <img
