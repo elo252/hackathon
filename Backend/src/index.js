@@ -1,6 +1,6 @@
 const express = require('express')
 require('./db/mongoose')
-var Razorpay=require("razorpay");
+const Razorpay=require("razorpay");
 const userRouter = require('./routers/user')
 const productRouter = require('./routers/product')
 const cartRouter = require('./routers/cart')
@@ -9,7 +9,15 @@ const razRouter = require('./routers/razorpay')
 const bodyParser = require('body-parser')
 
 const app = express()
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 4000
+
+app.use(
+    cors({
+      origin: "http://localhost:3000",
+      credentials: true,
+    })
+  );
+  
 
 app.use(express.json())
 //app.use(bodyParser.urlencoded({extended:true}))
